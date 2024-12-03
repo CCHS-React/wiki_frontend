@@ -36,6 +36,11 @@ function WikiPage() {
                     <div>
                         <p>{data.이름}</p>
                         <p>포지션: {data.포지션}</p>
+                        <p>입단 년도 : {data.입단년도}</p>
+                        <p>소속팀 : {data.소속팀}</p>
+                        <p>플레이스타일 : {data.플레이스타일}</p>
+                        <p>주발 : {data.주발}</p>
+                        <p>등번호 : {data.등번호}</p>
                     </div>
                     
                 ) : (
